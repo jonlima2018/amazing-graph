@@ -5,7 +5,7 @@ const SHeader = styled.header`
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 20px 40px 20px 80px;
 
 	.header__nav {
 		display: grid;
