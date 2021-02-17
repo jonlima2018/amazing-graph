@@ -13,9 +13,13 @@ const theme = {
 		bold: 600,
 	},
 	fontSize: {
+		f0: "20px",
 		f1: "24px",
-		// f2: "18px",
+		f2: "26px",
 		f3: "60px",
+	},
+	screenWidth: {
+		w1: "1180px",
 	},
 };
 
