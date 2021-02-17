@@ -30,6 +30,20 @@ const GlobalStyled = createGlobalStyle`
     }
 }
 
+.text{
+    font-family: ${({ theme }) => theme.fonts.primary};
+    color: ${({ theme }) => theme.colors.gray};
+    font-weight: ${({ theme }) => theme.fontWeight.normal};
+}
+
+.text--title{
+    font-size: ${({ theme }) => theme.fontSize.f3};
+    font-weight: ${({ theme }) => theme.fontWeight.bold};
+}
+
+.text--paragraph{
+    font-size: ${({ theme }) => theme.fontSize.f1};
+}
 
 
 `;
