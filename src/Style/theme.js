@@ -21,6 +21,10 @@ const theme = {
 	screenWidth: {
 		w1: "1180px",
 	},
+	zIndex: {
+		i1: 10,
+		i2: 20,
+	},
 };
 
 export default theme;

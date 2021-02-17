@@ -1,6 +1,7 @@
 import Button from "../../components/Button";
 import Header from "../../components/Header";
 import Container from "./Styled";
+import teams from "../../assets/team.jpg";
 
 const Home = () => {
 	return (
@@ -15,6 +16,9 @@ const Home = () => {
 						Colaborate and create beautiful graphics with your team
 					</p>
 					<Button title="Start Now" />
+				</div>
+				<div className="home__img">
+					<img src={teams} alt="teams" />
 				</div>
 			</Container>
 		</>
