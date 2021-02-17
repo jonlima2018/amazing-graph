@@ -36,6 +36,26 @@ const GlobalStyled = createGlobalStyle`
     font-weight: ${({ theme }) => theme.fontWeight.normal};
 }
 
+.text--logo{
+    color: ${({ theme }) => theme.colors.orange};
+    font-weight: ${({ theme }) => theme.fontWeight.bold};
+    font-size: ${({ theme }) => theme.fontSize.f2};
+    cursor:pointer;
+}
+
+.text--menu{
+    color: ${({ theme }) => theme.colors.gray};
+    font-weight: ${({ theme }) => theme.fontWeight.bold};
+    font-size: ${({ theme }) => theme.fontSize.f0};
+    text-align:center;
+    transition: background-color 0.4s;
+
+    &:hover{
+        color: ${({ theme }) => theme.colors.orange};
+        cursor:pointer;
+    }
+}
+
 .text--title{
     font-size: ${({ theme }) => theme.fontSize.f3};
     font-weight: ${({ theme }) => theme.fontWeight.bold};
