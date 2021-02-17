@@ -16,10 +16,14 @@ const theme = {
 		f0: "20px",
 		f1: "24px",
 		f2: "26px",
-		f3: "60px",
+		f3: "40px",
+		f4: "60px",
 	},
 	screenWidth: {
-		w1: "1180px",
+		large: "1180px",
+		medium: "925px",
+		small: "550px",
+		xSmall: "300px",
 	},
 	zIndex: {
 		i1: 10,

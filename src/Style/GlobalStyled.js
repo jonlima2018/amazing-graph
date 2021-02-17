@@ -17,8 +17,9 @@ const GlobalStyled = createGlobalStyle`
     background-color: ${({ theme }) => theme.colors.orange};
     color: ${({ theme }) => theme.colors.white};
     padding: 10px;
-    width: 220px;
-    border-radius: 8px;
+    height:60px;
+    border-radius: 12px;
+    width: 250px;
     font-size: ${({ theme }) => theme.fontSize.f1};
     font-weight: ${({ theme }) => theme.fontWeight.bold};
     transition: background-color 0.4s;
@@ -57,12 +58,26 @@ const GlobalStyled = createGlobalStyle`
 }
 
 .text--title{
-    font-size: ${({ theme }) => theme.fontSize.f3};
+    font-size: ${({ theme }) => theme.fontSize.f4};
     font-weight: ${({ theme }) => theme.fontWeight.bold};
 }
 
 .text--paragraph{
     font-size: ${({ theme }) => theme.fontSize.f1};
+}
+
+@media (max-width: ${({ theme }) => theme.screenWidth.small}) {
+    .text--title{
+        font-size: ${({ theme }) => theme.fontSize.f3};
+    }
+
+    .text--paragraph{
+        font-size: ${({ theme }) => theme.fontSize.f0};
+    }
+
+    .btn{
+        font-size: ${({ theme }) => theme.fontSize.f0};
+    }
 }
 
 
