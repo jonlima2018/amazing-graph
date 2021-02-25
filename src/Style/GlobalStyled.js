@@ -66,7 +66,7 @@ const GlobalStyled = createGlobalStyle`
     font-size: ${({ theme }) => theme.fontSize.f1};
 }
 
-@media (max-width: ${({ theme }) => theme.screenWidth.small}) {
+@media (max-width: ${({ theme }) => theme.screenWidth.medium}) {
     .text--title{
         font-size: ${({ theme }) => theme.fontSize.f3};
     }

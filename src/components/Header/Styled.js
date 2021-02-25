@@ -7,12 +7,6 @@ const SHeader = styled.header`
 	align-items: center;
 	margin: 0 auto;
 	padding: 20px 40px 20px 80px;
-
-	.header__nav {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		gap: 20px;
-	}
 `;
 
 export default SHeader;
