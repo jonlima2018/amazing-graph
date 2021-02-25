@@ -1,35 +1,49 @@
 {
-  "name": "amazing-graph",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2",
-    "styled-components": "^5.2.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "amazing-graph",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-scripts": "4.0.2",
+		"styled-components": "^5.2.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"dev": "webpack serve",
+		"build": "webpack",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"babel-loader": "^8.2.2",
+		"babel-plugin-styled-components": "^1.12.0",
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^5.0.2",
+		"file-loader": "^6.2.0",
+		"html-webpack-plugin": "^5.2.0",
+		"source-map-loader": "^2.0.1",
+		"style-loader": "^2.0.0",
+		"webpack": "^5.24.2",
+		"webpack-cli": "^4.5.0",
+		"webpack-dev-server": "^3.11.2"
+	}
 }
