@@ -67,6 +67,11 @@ const GlobalStyled = createGlobalStyle`
 }
 
 @media (max-width: ${({ theme }) => theme.screenWidth.medium}) {
+    #root {
+        position:relative;
+        overflow-x:hidden;
+    }
+
     .text--title{
         font-size: ${({ theme }) => theme.fontSize.f3};
     }
